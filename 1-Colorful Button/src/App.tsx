@@ -1,14 +1,15 @@
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <>
-    <button>
-      Start Coding!
-    </button>
+      <div className="container">
+        <div className="button-border">
+          <button className="button">Start Coding!</button>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
