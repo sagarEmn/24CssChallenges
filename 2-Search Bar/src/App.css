@@ -4,3 +4,26 @@
   padding: 2rem;
   text-align: center;
 }
+
+.hide {
+  border: 0;
+  clip: react(0 0 0 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container {
+  padding: 2em;
+  width: 80%;
+  margin: auto;
+}
+
+.search-bar {
+  width: 30%;
+  line-height: 2;
+  border-radius: 4px;
+  border: 1px solid var(--search-border);
+}
