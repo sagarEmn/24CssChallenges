@@ -24,7 +24,8 @@
 }
 
 .search-bar {
-  width: 30%;
+  padding: 1px;
+  width: 50%;
   line-height: 2;
   border-radius: 4px;
   border: 1px solid var(--search-border);
@@ -36,3 +37,8 @@
   border-color: var(--search-focus-border);
   outline: none;
 }
+
+.search-bar::placeholder {
+  font-weight: 300;
+}
+
