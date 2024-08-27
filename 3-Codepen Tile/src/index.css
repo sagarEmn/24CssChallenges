@@ -15,6 +15,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --font-main: 'Noto Sans', sans-serif;
+  --bg-main: #131417;
+  --bg-card: #1e1f26;
+  --bg-stats: #131417;
+  --username: #b7bbc8;
 }
 
 body {
@@ -23,4 +29,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+p, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
