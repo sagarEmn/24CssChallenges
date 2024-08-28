@@ -18,7 +18,19 @@ But, once the element was taking full height, it wasn't possible to center it an
 .circle {
   height: 1.5em;
   width: 1.5em;
-  background: #000;
+  background: var(--color-dark);
   margin: .5em;
   border-radius: 50%;
+  animation: pulse infinite alternate .8s;
+}
+
+@keyframes pulse {
+  from {
+    background: var(--color-dark);
+  }
+  to {
+    background: var(--color-light);
+    height: 2em;
+    width: 2em;
+  }
 }
