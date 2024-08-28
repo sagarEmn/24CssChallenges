@@ -12,6 +12,9 @@
   align-items: center;
 }
 
+/* before adding height, it was still at the center because place-items from the body section was putting it at the center,
+But, once the element was taking full height, it wasn't possible to center it anymore, so I had to center the items INSIDE "CONTAINER" */
+
 .circle {
   height: 1.5em;
   width: 1.5em;
