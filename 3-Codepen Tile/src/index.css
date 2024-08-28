@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--bg-main);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,8 +17,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --font-main: 'Noto Sans', sans-serif;
-  --bg-main: #131417;
-  --bg-card: #1e1f26;
+  --bg-main: #FFF8E8;
+  --bg-card: #674636;
   --bg-stats: #131417;
   --username: #b7bbc8;
 }
@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: var(--font-main);
 }
 
 p, h3 {
