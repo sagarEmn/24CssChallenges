@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.square {
+  height: 2rem;
+  width: 2rem;
+  background-color: black;
+  margin: 1.5rem;
+}
+
+.square1 {
+  background-color: red;
+}
+
+.square2 {
+  background-color: orange;
+}
