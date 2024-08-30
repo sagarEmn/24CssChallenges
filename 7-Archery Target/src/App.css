@@ -5,3 +5,19 @@
   text-align: center;
 }
 
+.ring {
+  border-radius: 50%;
+}
+
+.ring-1 {
+  height: 300px;
+  width: 300px;
+  background: var(--black);
+  display: flex;
+}
+
+.ring-2 {
+  height: 250px;
+  width: 250px;
+  background: var(--blue);
+}
