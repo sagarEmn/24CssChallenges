@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* before adding height, it was still at the center because place-items from the body section was putting it at the center,
+But, once the element was taking full height, it wasn't possible to center it anymore, so I had to center the items INSIDE "CONTAINER" */
+
+.circle {
+  height: 1.5em;
+  width: 1.5em;
+  background: var(--color-dark);
+  margin: .5em;
+  border-radius: 50%;
+  animation: pulse infinite alternate .8s;
+}
+
+@keyframes pulse {
+  from {
+    background: var(--color-dark);
+  }
+  to {
+    background: var(--color-light);
+    height: 2em;
+    width: 2em;
+  }
+}
