@@ -7,17 +7,31 @@
 
 .ring {
   border-radius: 50%;
+  display: flex;
+  place-content: center;
+  place-items: center;
 }
 
 .ring-1 {
   height: 300px;
   width: 300px;
   background: var(--black);
-  display: flex;
 }
 
 .ring-2 {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   background: var(--blue);
+}
+
+.ring-3 {
+  height: 100px;
+  width: 100px;
+  background-color: var(--yellow);
+}
+
+.bullseye {
+  height: 40px;
+  width: 40px;
+  background-color: var(--red);
 }
