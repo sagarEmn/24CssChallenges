@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flag-france {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 3/2);
+  display: flex;
+}
+
+.stripe {
+  flex-grow: 1;
+}
+
+.red {
+  background: var(--red);
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.white {
+  background: var(--white);
+}
