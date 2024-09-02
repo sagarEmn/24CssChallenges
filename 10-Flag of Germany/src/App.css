@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flag-germany {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 5/3);
+  display: flex;
+  flex-direction: column;
+}
