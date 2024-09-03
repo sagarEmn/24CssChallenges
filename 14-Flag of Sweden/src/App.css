@@ -4,3 +4,28 @@
   padding: 2rem;
   text-align: center;
 }
+
+.flag-sweden {
+  height: var(--flag-height);
+  width: calc(var(--flag-height) * 8 / 5);
+  background-color: var(--blue);
+  display: flex;
+  position: relative;
+}
+
+.horizontal-stripe {
+  align-self: center;
+  width: 100%;
+  background: var(--yellow);
+  height: calc(var(--flag-height) * 1 / 5);
+}
+
+.vertical-stripe {
+  height: calc(var(--flag-height) * 1 / 5);
+  width: var(--flag-height);
+  position: absolute;
+  background: var(--yellow);
+  transform: rotate(90deg);
+  top: calc(var(--flag-height) * 4 / 10);
+  right: calc(var(--flag-width) * 5 / 16);
+}
