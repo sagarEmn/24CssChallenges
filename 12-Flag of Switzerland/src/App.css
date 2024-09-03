@@ -4,3 +4,18 @@
   padding: 2rem;
   text-align: center;
 }
+
+.flag-switzerland {
+  height: var(--flag-hw);
+  width: var(--flag-hw);
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cross-1 {
+  height: calc(var(--flag-hw) * 3 / 16);
+  width: calc(var(--flag-hw) * 5 / 8);
+  background-color: var(--white);
+}
