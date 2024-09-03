@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flag-madagascar {
+  height: var(--flag-height);
+  width: calc((var(--flag-height) * 3 / 2));
+  border: 1px solid red;
+  display: flex;
+}
+
+.white {
+  flex-grow: 1;
+}
+
+.red-green {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.stripe {
+  border: 1px solid blue;
+}
+
+.red {
+  flex-grow: 1;
+}
+
+.green {
+  flex-grow: 1;
+}
