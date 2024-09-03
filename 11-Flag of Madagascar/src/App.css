@@ -8,12 +8,12 @@
 .flag-madagascar {
   height: var(--flag-height);
   width: calc((var(--flag-height) * 3 / 2));
-  border: 1px solid red;
   display: flex;
 }
 
 .white {
   flex-grow: 1;
+  background-color: var(--white);
 }
 
 .red-green {
@@ -22,14 +22,12 @@
   flex-grow: 2;
 }
 
-.stripe {
-  border: 1px solid blue;
-}
-
 .red {
   flex-grow: 1;
+  background-color: var(--red);
 }
 
 .green {
   flex-grow: 1;
+  background-color: var(--green);
 }
