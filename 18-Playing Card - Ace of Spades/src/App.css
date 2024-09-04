@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  color: black;
+  background: white;
+  border: 1px solid white;
+  border-radius: .5em;
+  height: var(--card-height);
+  width: calc(var(--card-height) * 2 / 3);
+  display: grid;
+  box-sizing: border-box;
+  padding: .6em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+.bottom {
+  transform: rotate(180deg);
+}
+
+.top > div:first-child, 
+.bottom > div:first-child {
+  padding-left: .04em;
+}
