@@ -9,13 +9,12 @@
   display: none;
 }
 
-label {
+.toggle-label {
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 100px;
   height: 40px;
-  border: 3px solid var(--toggle-border);
+  border: 3px solid var(--toggle-border-inactive);
   border-radius: 40px;
   padding: .2em;
 }
@@ -24,5 +23,11 @@ label {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background: var(--toggle-switch-bg)
+  background: var(--toggle-switch-bg);
+  transition: all .25s;
+}
+
+.toggle-input:checked ~ .toggle-switch {
+  transform: translateX(calc(100px - 40px));
+  background: var(--toggle-switch-bg-toggle);
 }
