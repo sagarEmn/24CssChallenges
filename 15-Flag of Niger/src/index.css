@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --orange: #E15307;
+  --white: #FFFFFF;
+  --green: #10AF2A;
+  --flag-height: 200px;
 }
 
 body {
