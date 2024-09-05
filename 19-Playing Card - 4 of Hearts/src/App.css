@@ -15,4 +15,25 @@
   grid-template-columns: 10% 80% 10%;
 }
 
+.middle {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  font-size: 2em;
+}
 
+.middle :nth-child(3),
+.middle :nth-child(4) {
+  transform: rotate(180deg);
+}
+
+.left > div:first-child,
+.right > div:first-child {
+  padding-left: 3px;
+  font-size: 20px;
+}
+
+.right {
+  transform: rotate(180deg);
+}
