@@ -1,13 +1,13 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
     <>
-    <div className="progress-bar">
-      <div className="prog-status stage-4"></div>
-    </div>
+      <div className="progress-bar">
+        <div className="prog-status stage-2"></div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
