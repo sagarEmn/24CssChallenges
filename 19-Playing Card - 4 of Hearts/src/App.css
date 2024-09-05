@@ -7,8 +7,12 @@
 .card {
   height: var(--card-height);
   width: calc(var(--card-height) * 2 / 3);
-  color: black;
+  color: red;
   padding: 0.5em;
   border-radius: 0.4em;
   background: var(--white);
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
 }
+
+

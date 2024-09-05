@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --card-height: 18.75em;  
+  --card-height: 300px;  
   --white: #FFF;
 }
 
