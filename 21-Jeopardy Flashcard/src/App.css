@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  background: var(--jeopardy-blue);
+  border-radius: 2em;
+  padding: .5em;
+  max-width: 30em;
+  display: flex;
+  flex-direction: column;
+  transition: transform .6s;
+  transform-style: preserve-3d;
+}
+
+.card-back {
+  display: none;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-front {
+  display: none;
+}
+
+.card:hover .card-back {
+  display: block;
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  backface-visibility: hidden;
+}
