@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loader {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1em solid var(--spinner);
+  border-top: 1em solid var(--spinner-active);
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
