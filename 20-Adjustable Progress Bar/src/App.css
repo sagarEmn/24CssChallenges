@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 4em;
+  background: var(--progbar-bg);
+  border-radius: 2em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prog-status {
+  height: inherit;
+  border-radius: inherit;
+  background: purple;
+  width: 50%;
+}
+
+.stage-1 {
+  background: var(--stage-1-bg);
+}
+
+.stage-2 {
+  background: var(--stage-2-bg);
+}
+.stage-3 {
+  background: var(--stage-3-bg);
+}
+.stage-4 {
+  background: var(--stage-4-bg);
+}
