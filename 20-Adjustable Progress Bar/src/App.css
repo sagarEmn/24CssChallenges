@@ -3,4 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100vw;
+}
+
+.progress-bar {
+  height: 2em;
+  border: 1px solid blue;
+  width: 100%;
 }
