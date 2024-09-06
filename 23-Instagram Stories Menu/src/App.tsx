@@ -10,7 +10,7 @@ function App() {
           </div>
           <p>Julian</p>
         </li>
-        <li className="story new">
+        <li className="story viewed live">
           <div className="img-wrapper">
             <img className="img" src="momo2.jpg" alt="" />
           </div>
