@@ -12,15 +12,15 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 1rem;
 }
 
 .img-wrapper {
-  height: 16em;
-  width: 16em;
+  height: 14em;
+  width: 14em;
   max-width: 100%;
-  border-radius: 50%; 
+  border-radius: 50%;
   border: 2px solid black;
   padding: 7px;
   background: white;
@@ -39,4 +39,15 @@ img {
 
 li {
   width: fit-content;
+}
+
+.new > .img-wrapper {
+  background: linear-gradient(
+    to top right,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
 }
