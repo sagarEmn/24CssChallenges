@@ -5,19 +5,31 @@
   text-align: center;
 }
 
-img {
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid red;
+.stories-menu {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .img-wrapper {
   height: 16em;
   width: 16em;
+  max-width: 100%;
 }
 
-.stories-menu {
-  padding: 0;
-  list-style: none;
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+li {
+  width: fit-content;
 }
