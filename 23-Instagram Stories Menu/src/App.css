@@ -17,8 +17,8 @@
 }
 
 .img-wrapper {
-  height: 14em;
-  width: 14em;
+  height: 8em;
+  width: 8em;
   max-width: 100%;
   border-radius: 50%;
   border: 2px solid black;
@@ -39,6 +39,10 @@ img {
 
 li {
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .new > .img-wrapper {
@@ -50,4 +54,24 @@ li {
     #962fbf,
     #4f5bd5
   );
+}
+
+.viewed > .img-wrapper {
+  background: var(--viewed);
+}
+
+.live {
+  position: relative;
+}
+
+.live:after {
+  content: "live";
+  font-size: 0.9em;
+  font-weight: bold;
+  background: var(--bg-live);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0.15em 0.4em;
+  position: absolute;
+  top: 65%;
 }
