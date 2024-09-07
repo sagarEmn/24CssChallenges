@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.progress-bar {
+  height: 2em;
+  width: 80%;
+  background: var(--progressbar-bg);
+  border-radius: 2em;
+}
+
+.progress-status {
+  width: 10%;
+  background: var(--start);
+  animation: 6s linear showprogress infinite;
+}
+
+@keyframes showprogress {
+  50% {
+    width: 50%;
+    background: var(--middle);
+  }
+  75% {
+    width: 100%;
+    background: var(--finish);
+  }
+  100% {
+    width: 100%;
+    background: var(--finish);
+  }
+}
